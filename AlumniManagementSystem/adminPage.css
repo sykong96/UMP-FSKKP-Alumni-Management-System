@@ -1,0 +1,84 @@
+body{
+	background-color: #f9f8f7 ;
+}
+
+a{
+	text-decoration:none;
+	color: #0c205c ;
+	
+}
+
+h2{
+	font-family:arial,sans-serif;
+	font-weight:bold;
+	text-align:center;
+	font-size:35px;
+}
+
+
+#container{
+	background-color:   #dce7e8  ;
+	border-style: solid;
+    border-width: 1.5px;
+	border-color: #425496 ;
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#header{
+	background-image: url(umppic.jpg);
+	background-position:top;
+	border-style: solid;
+    border-width: 2.5px;
+	border-color: #425496 ;
+	height:300px;
+	color:     #26276f ;
+	text-align:left;
+	padding-top: 45px;
+	padding-left:30px;
+}
+
+#content{
+	padding:10px;
+}
+
+#nav{
+	
+	background-color: #b8dcdc ;
+	border-style: solid;
+    border-width: 2px;
+	border-color: #425496 ;
+	color: #261950 ;
+	width:290px;
+	float:left;
+}
+
+
+#nav ul li{
+	list-style-type:none;
+	display:block;
+	padding:10px;
+	border-bottom:2px solid #425496;
+}
+
+#nav ul li:hover{
+	background-color: #7c7bc1 ;
+}
+
+#main{
+	width:670px;
+	float:right;
+	border-style: solid;
+    border-width: 1.5px;
+	border-color: #425496 ;
+	padding 10px;
+}
+
+#footer{
+	clear:both;
+	padding:10px;
+	color: #a9aad7 ;
+	text-align: center;
+}
+

@@ -1,0 +1,57 @@
+body{
+	background-color:   #f0f1f3  ;
+}
+
+
+.header {
+    background-image: url(canseleri.jpg);
+	background-position:center;
+    height: 290px;
+    width: 1500px;
+}
+
+h1 {
+    font-family: "Comic Sans MS";
+    font-size: 35px;
+    color: hsl(248, 53%, 58%);
+}
+
+p.style1 {
+    width: 600px; 
+    word-break: keep-all;
+    text-align: justify;
+    font-family: "Arial";
+    font-size: 16px;
+}
+
+body {
+    font-size: 28px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+

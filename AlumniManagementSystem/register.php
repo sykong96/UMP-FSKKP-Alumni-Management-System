@@ -1,0 +1,102 @@
+<html>
+<head>
+	<title>Login</title>
+	<style>
+		body{
+			background-color:   #f0f1f3 
+		}
+		
+		#header{
+			text-align :center;
+			background-color: #58545c ;
+			height:40px;
+			color: #ccc2d5 ;
+			
+		}
+	
+	
+		#container{
+			
+			height:80%;
+			border-style: solid;
+			border-width: 3px;
+			border-color: #425496 ;
+			padding:20px;
+			background-color: #c7e0e1 ;
+			
+		}
+		
+		form{
+			
+		
+			font-family:arial,sans-serif;
+			font-weight:bold;
+			text-align:center;
+			font-size:20px;
+		}
+		
+		#footer{
+			clear:both;
+			padding:10px;
+			color: #a9aad7 ;
+			text-align: center;
+		}
+	
+	</style>
+	
+</head>
+
+<style>
+
+
+
+
+</style>
+
+<body>
+
+	<div id="header">
+		<h1>Registration</h1>
+	</div>
+	
+	<div id="container">
+	
+		<form class= "register_form" action="register_parse.php" method="POST">
+			
+				Username<br><input type ="text" placeholder="username" name="username"><br><br>
+				Password <br><input type = "password" placeholder="password" name="password"><br><br>
+				Name<br><input type ="text" placeholder="name" name="name"><br><br>
+				Program<br>
+					<select name="program">
+						<option value="Software Engineering">Software Engineering</option>
+						<option value="Networking">Networking</option>
+						<option value="Graphic & Multimedia">Graphic & Multimedia</option>
+					</select>
+					<br><br>
+				Batch<br>
+					<select name="batch">
+						<option value="2016/2017">2016/2017</option>
+						<option value="2017/2018">2017/2018</option>
+						<option value="2018/2019">2018/2019</option>
+					</select>
+					<br><br>
+				Graduated Year<br><input type ="text" placeholder="grad year" name="grad_year"><br><br>
+				<br><br>
+				<button type="submit" name="register">Register</button>
+			
+		</form>
+	
+	</div>
+	
+	<div id="footer">
+		
+		<p> Copyright &copy; 2018 Chan Pui Fen & Kong Shin Yee</p>
+		
+	</div>
+		
+
+</body>
+
+
+
+</html>
